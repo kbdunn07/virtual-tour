@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>360 Image Viewer</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website!</h1>
-    </header>
-    <section>
-        <p>This is a simple welcome message on a basic webpage.</p>
-    </section>
+    <a-scene>
+        <!-- Replace the URL with the correct path to your 360-degree image -->
+        <a-sky src="https://raw.githubusercontent.com/kbdunn07/virtual-tour/main/R0010009.JPG" rotation="0 -90 0"></a-sky>
+    </a-scene>
 </body>
 </html>
